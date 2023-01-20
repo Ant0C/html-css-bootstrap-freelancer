@@ -74,7 +74,7 @@ header .col-5{
     padding: 2rem 0;
 }
 
-.title__portfolio{
+.row__portfolio{
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -92,6 +92,34 @@ header .col-5{
 
 .portfolio .row{
     row-gap: 20px;
+}
+
+/* Section Download */
+
+.about{
+    background-color: #1ABC9C;
+    color: white;
+    padding: 4rem 0;
+}
+
+.row__about{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.text__center{
+    text-align: center;
+}
+
+.button{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.button i{
+    margin-right: 5px;
 }
 
 @media (min-width: 576px) {
@@ -126,6 +154,11 @@ header .col-5{
     }
 
     .thumb__portfolio .row{
+        justify-content: center;
+    }
+
+    .row__about{
+        flex-direction: row;
         justify-content: center;
     }
 }
