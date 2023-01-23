@@ -11,33 +11,29 @@
 </head>
 
 <body>
-
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-5">
-                    <a href="#" class="ac__link">START BOOTSTRAP</a>
-                </div>
-                <div class="col-md-5 offset-2 menu-md">
-                    <div class="col">
-                        PORTFOLIO
-                    </div>
-                    <div class="col">
-                        ABOUT
-                    </div>
-                    <div class="col">
-                        CONTACT
-                    </div>
-                </div>
-                <div class="col-5 offset-2 menu-sm">
-                    <a href="#" class="ac__link">
-                        <i class="fa-solid fa-bars"></i>
-                    </a>
+    <nav class="navbar navbar-expand-md fixed-top nav__color">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </header>
-
+    </nav>
     <main>
         <section class="avatar">
             <div class="container">
@@ -127,7 +123,7 @@
                         <i class="fa-solid fa-star icon__avatar"></i>
                     </div>
                     <form action="#" class="">
-                        <ul class="row row__form">
+                        <ul class="row row__form justify-content-md-center flex-column">
                             <li class="col-7 col-md-10">
                                 <input type="text" placeholder="Name" class="col-12 input__form">
                             </li>

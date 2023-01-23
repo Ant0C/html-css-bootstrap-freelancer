@@ -13,29 +13,8 @@ li,ul,ol {
 
 /* HEADER */
 
-header {
-    color: white;
+.nav__color {
     background-color: #2C3E50;
-}
-
-header .col-5{
-    padding: 25px 10px;
-    font-size: 1.3rem;
-}
-
-.menu-sm{
-    text-align: right;
-}
-
-.menu-md{
-    text-align: center;
-    display: none;
-}
-
-.menu-sm a{
-    border: 2px solid white;
-    border-radius: 10px;
-    padding: 5px 15px;
 }
 
 /* Section Avatar */
@@ -214,12 +193,6 @@ header .col-5{
     .row__column{
         flex-direction: row;
         justify-content: center;
-    }
-
-    .row__form{
-        flex-direction: column;
-        justify-content: center;
-
     }
 }
 
